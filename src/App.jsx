@@ -1,5 +1,6 @@
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept/CoreConcept.jsx';
+import Examples from './components/Examples/Examples.jsx';
 import { CORE_CONCEPTS } from './data.js';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             ))}
           </ul>
         </section>
+         <Examples />
       </main>
     </>
   );
